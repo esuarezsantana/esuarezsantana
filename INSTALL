@@ -1,0 +1,48 @@
+// asciidoc syntax
+// utf-8 encoding
+
+INSTALL
+=======
+
+1. Copy esuarezsantanarc to ~/.esuarezsantanarc
++
+......................
+$ cp esuarezsantanarc ~/.esuarezsantanarc
+......................
+
+2. Modify parameters of ~/.esuarezsantanarc as needed
++
+......................
+$ vim ~/.esuarezsantanarc
+......................
+
+3. Add the path of the scripts to the variable PYTHONPATH
++
+......................
+$ export PYTHONPATH=${PYTHONPATH}:`pwd`
+......................
+
+4. Add the path of the scripts to the variable PATH
++
+......................
+$ export PATH=${PATH}:`pwd`
+......................
+
+5. Add executable permissions to the scripts
++
+......................
+$ chmod +x *.py
+......................
+
+
+Utilities
+---------
+
+=== systamp ===
+
+systamp needs a 'bonsai' directory to be created. This directory is
+
+ $ systamp -p
+
+
+
