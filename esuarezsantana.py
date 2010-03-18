@@ -14,7 +14,7 @@
 import ConfigParser, os;
 
 def getConfig():
-    ftf_config = ConfigParser.ConfigParser();
-    ftf_config.read(['/usr/share/esuarezsantana/esuarezsantanarc',os.path.expanduser('~/.esuarezsantanarc')]);
-    return ftf_config;
+    config = ConfigParser.ConfigParser();
+    config.read(['/usr/share/esuarezsantana/esuarezsantanarc',os.path.expanduser('~/.esuarezsantanarc')]);
+    return config;
 

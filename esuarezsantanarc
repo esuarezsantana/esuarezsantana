@@ -4,7 +4,7 @@
 
 [systamp]
 # where bonsai dir is
-basepath     = /home/eduardo/bonsai
+basepath     = /home/esuarezsantana/bonsai
 # where the root (/) system is mounted. Blank for /
 prefix       =
 # fake another distro
