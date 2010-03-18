@@ -1,0 +1,14 @@
+# 
+# ini file for esuarezsantana
+#
+
+[systamp]
+# where bonsai dir is
+basepath     = /home/eduardo/bonsai
+# where the root (/) system is mounted. Blank for /
+prefix       =
+# fake another distro
+fakedistro   =
+# fake another hostname
+fakehostname =
+
