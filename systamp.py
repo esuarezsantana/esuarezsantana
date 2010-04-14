@@ -3,10 +3,12 @@
 
 #####################################################################
 #
-#   Copyright 2010 Eduardo Suarez-Santana
-#                  http://e.suarezsantana.com/
-#
 #   This file is part of esuarezsantana utilities.
+#   Module:      systamp.py
+#   Description: tool for local backup of small text files
+#
+#   Copyright (C) 2010 Eduardo Suarez-Santana
+#                      http://e.suarezsantana.com/
 #
 #   esuarezsantana utilities are free software: you can redistribute
 #   them and/or modify them under the terms of the GNU General
